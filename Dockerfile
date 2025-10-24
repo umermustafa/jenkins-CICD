@@ -1,11 +1,11 @@
-# Use official Python base image
+# Python base image
 FROM python:3.10-slim
 
-# Set working directory
+# Working directory
 WORKDIR /app
 
-# Copy the Python file into container
+# Copying python file into container
 COPY umermustafa.py .
 
-# Run the Python file
+# Running python file
 CMD ["python", "umermustafa.py"]
