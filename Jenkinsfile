@@ -5,7 +5,7 @@ pipeline {
         stage('Umer Mustafa - Build Docker Image') {
             steps {
                 echo "Building Docker image..."
-                sh 'docker build -t $umerfdm/python-app:latest .'
+                sh 'docker build -t umerfdm/python-app:latest .'
             }
         }
     }
